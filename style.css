@@ -5,47 +5,34 @@
   }
 
   .container{
-
-    width: 95%;
+    background-color: antiquewhite;
+    width: 90%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-.hex-colors{
-
+.quotes{
+    background-color:moccasin;
+    width: 80%;
+    height: 80%;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.hex-colors h1{
+.labels{
+    max-width: 80vh;
+    min-width: 30vh;
+}
+
+.labels h1{
     font-size: 2rem;
-    text-transform: uppercase;
-    animation: changecolor 5s infinite alternate;
 }
 
-.hex-colors h2{
+.labels h2{
     font-size: 2rem;
-    margin-top: 15%;
-}
-
-@keyframes changecolor {
-    0%{
-        color:dodgerblue;
-    }
-    20%{
-        color:lawngreen;
-    }
-    40%{
-        color:darkviolet;
-    }
-    60%{
-        color:lightcoral;
-    }
-    80%{
-        color:olive;
-    }
-    100%{
-        color:red;
-    }
+    margin-top: 5%;
 }
