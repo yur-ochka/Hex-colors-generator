@@ -1,0 +1,51 @@
+  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+  body{
+    font-family: 'Comic Neue', cursive;
+  }
+
+  .container{
+
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.hex-colors{
+
+    text-align: center;
+}
+
+.hex-colors h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: changecolor 5s infinite alternate;
+}
+
+.hex-colors h2{
+    font-size: 2rem;
+    margin-top: 15%;
+}
+
+@keyframes changecolor {
+    0%{
+        color:dodgerblue;
+    }
+    20%{
+        color:lawngreen;
+    }
+    40%{
+        color:darkviolet;
+    }
+    60%{
+        color:lightcoral;
+    }
+    80%{
+        color:olive;
+    }
+    100%{
+        color:red;
+    }
+}
